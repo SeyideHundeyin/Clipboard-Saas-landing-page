@@ -60,7 +60,8 @@ p{
   color: var(--grayish-blue);
   text-align: center;
   margin-bottom: 3rem !important;
- max-width: 890px;
+ max-width: 55.625rem;
+ width: 95%;
  font-size: 1.5rem;
 }
 
@@ -200,13 +201,13 @@ main{
   justify-content: center;
   align-content: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 8.75rem  auto;
 
 }
 
 .row_2 img{
-  padding-left: 60px;
-  margin: 20px auto;
+  padding-left: 4.375rem;
+  margin: 1.25rem auto;
 }
 
 
@@ -247,7 +248,7 @@ i:hover{
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 
@@ -268,17 +269,22 @@ i:hover{
     padding-top: 15rem;
   }
   h1{
-    font-size: 3rem;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 2.8rem;
     margin-top: 0rem;
   }
 
   h2{
+    width: 90%;
+    margin: 0 auto;
     font-size: 2.5rem;
     margin-top: 2rem;
   }
 
   p{
-    font-size: 1.5rem;
+    width: 90%;
+    font-size: 1.2rem;
   }
   .btn{
     flex-direction: column;
@@ -319,12 +325,12 @@ i:hover{
     margin: 0 auto;
 }
 .row_2 img{
-  padding: 30px;
-  margin: 20px auto;
+  padding: 1.875rem;
+  margin: 1.25rem auto;
 }
 .footer{
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   text-align: center;
   height: 70vh;
 }
@@ -399,12 +405,12 @@ i:hover{
     margin: 0 auto;
 }
 .row_2 img{
-  padding: 30px;
-  margin: 20px auto;
+  padding: 1.875rem;
+  margin: 1.25rem auto;
 }
 .footer{
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   text-align: center;
   height: 100vh;
 }
