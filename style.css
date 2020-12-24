@@ -166,13 +166,18 @@ main{
 /*second section styles*/
 .second{
   display: flex;
+  justify-content: center;
+  align-content: center;
   margin-top: 8.125rem;
   margin-bottom: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second img{
   position: relative;
-  left: -3.125rem;
+  left: -7.125rem;
+  margin: 0 auto;
 }
 .second h3, .second p{
   text-align: left;
@@ -187,6 +192,8 @@ main{
 /*fifth section styles*/
 .row{
   display: flex;
+  justify-content: center;
+  align-content: center;
   width: 90%;
   margin: 0 auto;
 }
@@ -225,11 +232,12 @@ main{
 }
 
 /*Footer*/
+
 .footer{
   background-color: hsl(201, 11%, 95%);
   max-width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 20vh;
   padding-top: 2.5rem;
 }
